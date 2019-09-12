@@ -296,7 +296,7 @@ class SegmentioCell: UICollectionViewCell {
             segmentTitleLabel?.font = defaultState.titleFont
             segmentTitleLabel?.text = content.title
             segmentTitleLabel?.minimumScaleFactor = 0.5
-            segmentTitleLabel?.adjustsFontSizeToFitWidth = true
+            segmentTitleLabel?.adjustsFontSizeToFitWidth = false
         }
     }
     
