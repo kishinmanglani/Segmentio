@@ -10,7 +10,7 @@ import UIKit
 
 class SegmentioCell: UICollectionViewCell {
     
-    let padding: CGFloat = 8
+    let padding: CGFloat = 6
     static let segmentTitleLabelHeight: CGFloat = 22
     
     var verticalSeparatorView: UIView?
@@ -201,7 +201,7 @@ class SegmentioCell: UICollectionViewCell {
             attribute: .trailing,
             relatedBy: .equal,
             toItem: containerView,
-            attribute: .trailingMargin,
+            attribute: .trailing,
             multiplier: 1.0,
             constant: 0
         )
@@ -210,7 +210,7 @@ class SegmentioCell: UICollectionViewCell {
             attribute: .leading,
             relatedBy: .equal,
             toItem: containerView,
-            attribute: .leadingMargin,
+            attribute: .leading,
             multiplier: 1.0,
             constant: 0
         )
