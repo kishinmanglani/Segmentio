@@ -143,7 +143,7 @@ class SegmentioCell: UICollectionViewCell {
             segmentTitleLabel?.font = selected ? selectedState.titleFont : defaultState.titleFont
             segmentTitleLabel?.alpha = selected ? selectedState.titleAlpha : defaultState.titleAlpha
             segmentTitleLabel?.minimumScaleFactor = 0.5
-            segmentTitleLabel?.adjustsFontSizeToFitWidth = true
+            segmentTitleLabel?.adjustsFontSizeToFitWidth = false
         }
                 
         if (style != .onlyLabel) {
